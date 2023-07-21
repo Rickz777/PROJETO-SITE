@@ -424,4 +424,12 @@ h4.link {
         margin-left: 0;
     }
 
+    .menu h1 {
+        font-size: 4rem;
+    }
+
+    .menu ul li a {
+        font-size: 3rem;
+    }
+
 }
