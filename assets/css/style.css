@@ -282,6 +282,17 @@ h4.link {
     border: 0.1rem solid var(--primary-color);
 }
 
+.logoimg {
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    position: absolute;
+}
+
+.logotexto {
+    margin-left: 7rem;
+}
+
 @media all and (max-width: 60rem) {
 
     h1 {
@@ -360,6 +371,7 @@ h4.link {
 @media (max-width: 800px) {
     .menu {
         bottom: 0;
+        text-align: center;
     }
 
     .menu-content{
@@ -402,6 +414,14 @@ h4.link {
 
     .menu-spacing {
         display: none;
+    }
+
+    .logoimg {
+        display: none;
+    }
+
+    .logotexto {
+        margin-left: 0;
     }
 
 }
